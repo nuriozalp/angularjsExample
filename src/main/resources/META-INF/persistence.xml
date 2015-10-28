@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.xvitcoder.angularspringapp_AngularSpringApp_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.teshis.model.BloodTest</class>
+    <class>com.teshis.model.Gender</class>
+    <class>com.teshis.model.Treatment</class>
+    <class>com.teshis.model.Medicane</class>
+    <class>com.teshis.model.DiseaseCategory</class>
+    <class>com.teshis.model.Job</class>
+    <class>com.teshis.model.AgeRange</class>
+    <class>com.teshis.model.Symptom</class>
+    <class>com.teshis.model.Disease</class>
+    <class>com.teshis.model.AuditLog</class>
+    <class>com.teshis.model.BloodTestItem</class>
+    <class>com.teshis.model.User</class>
+    <class>com.teshis.model.DiseaseSymptom</class>
+    <class>com.teshis.model.Article</class>
+    <class>com.teshis.model.SymptomQuestion</class>
+    <class>com.teshis.model.Role</class>
+    <class>com.teshis.model.FirstAid</class>
+    <class>com.teshis.model.BodyPart</class>
+    <class>com.teshis.model.Permission</class>
+    <class>com.teshis.model.SymptomQuestionAnswer</class>
+    <class>com.teshis.model.Roles</class>
+    <class>com.teshis.model.Permissions</class>
+    <class>com.teshis.model.Users</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/eteshis?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.password" value="1"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+    </properties>
+  </persistence-unit>
+</persistence>
